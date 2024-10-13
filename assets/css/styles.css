@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #F9F7F5;
+    cursor: cell;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.02), 0px 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+h1 {
+    font-size: 26px;
+    margin-right: auto;
+}
+
+header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 6px;
+}
+
+header i {
+    font-size: 24px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+    background-color: #e9e9e9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.02), 0px 1px 3px rgba(0, 0, 0, 0.03);
+    transition: width 0.5s ease;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidebar a:hover {
+    color: #838383; 
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    padding: 40px 80px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.left h1 {
+    font-size: 48px;
+    padding-left: 25%;
+    padding-top: 25%;
+}
+
+.left p {
+    padding-left: 25%;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.left span {
+    color: #534ef4;
+}
+
+.right img {
+    object-fit: cover;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 25%;
+}
+
+h2 {
+    padding: 0 80px;
+    font-size: 40px;
+    margin-top: 63px;
+    text-align: left;
+}
+
+.services {
+    padding: 0 80px;
+    margin: 50px 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.services .service {
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 50px;
+    transition: 0.2s;
+}
+
+.services .service:hover {
+    padding: 52px;
+}
+
+.left p,
+.services .service p {
+    font-weight: 300;
+}
+
+.services .service p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.dropdown-content {
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    transition: 0.2s;
+}
+
+.faq-container {
+    cursor: pointer;
+}
+
+.faq-button {
+    background: none;
+    border: none;
+}
+
+.faq-button i {
+    font-size: 24px
+}
+
+.faq-container:hover .dropdown-content {
+    opacity: 1;
+}
+
+.faq-container:hover {
+    margin-bottom: 20px;
+}
+
+.faq-container:hover {
+    box-shadow: none;
+}
+
+.faq-container p {
+    font-size: 20px;
+}
+
+.dropdown-content p {
+    text-align: center;
+    padding-top: 45px;
+    font-size: 14px;
+}
+
+.faq {
+    margin-left: 5px;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.faq-container {
+    display: flex;
+    padding: 10px 10px;
+    width: 91%;
+    height: 50px;
+    gap: 10px;
+    background-color: #ffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.sub-pricing,
+.pricing {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.pricing-holder {
+    width: 27%;
+    height: 240px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.pricing-holder h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pricing-holder button {
+    width: calc(25% + 5px);
+    cursor: pointer;
+    margin-top: 25px;
+    height: calc(10% + 5px);
+    background: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.pricing-holder button:hover {
+    background-color: #000;
+    color: white;
+}
+
+
+.pricing-holder:hover {
+    box-shadow: none;
+    width: 29%;
+}
+
+@media (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+        padding: 20px 40px;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .left h1, .left p, .right img {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    h2 {
+        padding: 0 40px;
+        font-size: 32px;
+    }
+
+    .services {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .left h1 {
+        font-size: 36px;
+    }
+
+    .right img {
+        padding: 0 20px;
+    }
+
+    .services .service {
+        font-size: 18px;
+        padding: 30px;
+    }
+}
