@@ -11,11 +11,11 @@ async function loop() {
         if (imageIndex !== imageAmount) {
             imageIndex++
             image.src = `assets/img/${imageIndex}.png`
-            image.style.transform = `rotate(${Math.floor((Math.random() * -5) + Math.random() * 5)}deg)`
+            //image.style.transform = `rotate(${Math.floor((Math.random() * -5) + Math.random() * 5)}deg)`
         } else {
             imageIndex = 1;
             image.src = "assets/img/1.png"
-            image.style.transform = `rotate(${Math.floor((Math.random() * -5) + Math.random() * 5)}deg)`
+            //image.style.transform = `rotate(${Math.floor((Math.random() * -5) + Math.random() * 5)}deg)`
         }
     
         await sleep(5000)
