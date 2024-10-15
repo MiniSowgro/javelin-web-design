@@ -71,6 +71,7 @@ header i {
     display: flex;
     width: 100%;
     padding: 40px 80px;
+    transition: 1s;
 }
 
 .left {
@@ -110,6 +111,7 @@ h2 {
     font-size: 40px;
     margin-top: 63px;
     text-align: left;
+    transition: 1s;
 }
 
 .services {
@@ -119,6 +121,7 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 30px;
+    transition: 1s;
 }
 
 .services .service {
@@ -129,7 +132,7 @@ h2 {
     border-radius: 8px;
     font-size: 20px;
     padding: 50px;
-    transition: 0.2s;
+    transition: 1s;
 }
 
 .services .service:hover {
@@ -194,6 +197,7 @@ h2 {
     display: flex;
     position: relative;
     justify-content: center;
+    transition: 1s;
 }
 
 .faq-container {
@@ -215,6 +219,7 @@ h2 {
     justify-content: center;
     gap: 20px;
     padding-top: 50px;
+    transition: 1s;
 }
 
 .pricing-holder {
@@ -258,6 +263,8 @@ h2 {
 
 .testimonial-holder {
     margin-top: 30px;
+    margin-bottom: 70px;
+    transition: 1s;
 }
 
 .testimonial-holder p {
@@ -273,6 +280,80 @@ h2 {
 .testimonial-holder a,
 .testimonial-holder .reference-p {
     padding: 0 80px;
+}
+
+footer {
+    background-color: #cecece;
+    color: #000;
+    padding: 70px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-size: 36px;
+}
+
+footer .footer-right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 26px;
+}
+
+footer .footer-right .links {
+    display: flex;
+    gap: 30px;
+}
+
+footer .footer-right .links a {
+    transition: 0.2s;
+}
+
+footer .footer-right .links a:hover {
+    color: #aaaaaa;
+}
+
+footer .footer-right .socials {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .footer-right .socials i {
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+footer .footer-right .socials .youtube {
+    color: #af0000;
+}
+
+footer .footer-right .socials .youtube:hover {
+    color: #5c0000;
+}
+
+footer .footer-right .socials .instagram {
+    color: #bd0ce0;
+}
+
+footer .footer-right .socials .instagram:hover {
+    color: #59005c;
+}
+
+footer .footer-right .socials .twitter {
+    color: #0086d3;
+}
+
+footer .footer-right .socials .twitter:hover {
+    color: #0b54f1;
+}
+
+footer .footer-right p {
+    font-size: 14px;
 }
 
 @media (max-width: 1400px) {
@@ -335,6 +416,21 @@ h2 {
         width: 85%;
         height: 240px;
     }
+
+    footer {
+        flex-direction: column;
+        padding: 60px 40px;
+    }
+
+    footer h3 {
+        margin-bottom: 40px;
+        font-size: 32px;
+    }
+
+    footer .footer-right {
+        width: 100%;
+        align-items: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -376,6 +472,10 @@ h2 {
     header #menu {
         display: block;
     }
+
+    footer {
+        padding: 40px 20px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -402,4 +502,16 @@ h2 {
     .services .service p {
         font-size: 6px;
     }
+}
+
+#hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(10%);
+}
+
+#show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
 }
