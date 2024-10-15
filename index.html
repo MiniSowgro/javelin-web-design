@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <title>Javelin Web Design</title>
-
         <link rel="stylesheet" href="assets/css/styles.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
@@ -16,11 +15,11 @@
         </header>
 
         <div class="sidebar">
-            <a href="about">About</a>
-            <a href="#">Contact</a>
+            <a href="about/">About</a>
+            <a href="contact/">Contact</a>
         </div>
 
-        <div class="main">
+        <div class="main" id="hidden">
             <div class="left">
                 <h1>Welcome to<br><span>Javelin Web Design</span></h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor dui lectus, sit amet rhoncus augue imperdiet sed. Vivamus at nulla pulvinar, ultricies ligula vel, vehicula leo. Donec fringilla magna a orci facilisis, id vehicula arcu viverra.</p>
@@ -30,9 +29,9 @@
             </div>
         </div>
 
-        <h2>Our Services</h2>
+        <h2 id="hidden">Our Services</h2>
 
-        <div class="services">
+        <div class="services" id="hidden">
             <div class="service">
                 <i class='bx bx-code-alt'></i>
                 <h3>Web Development</h3>
@@ -52,9 +51,9 @@
             </div>
         </div>
 
-        <h2>Frequently Asked Questions</h2>
+        <h2 id="hidden">Frequently Asked Questions</h2>
 
-        <div class="faq">
+        <div class="faq" id="hidden">
             <div class="faq-container">
                 <p><strong>Why choose Javelin Web Design?</strong></p>
                 <button class="faq-button">
@@ -67,7 +66,7 @@
             </div>
         </div>
 
-        <div class="faq">
+        <div class="faq" id="hidden">
             <div class="faq-container">
                 <p><strong>How much does a website cost?</strong></p>
                 <button class="faq-button">
@@ -80,7 +79,7 @@
             </div>
         </div>
 
-        <div class="faq">
+        <div class="faq" id="hidden">
             <div class="faq-container">
                 <p><strong>How do you plan on saving the whales?</strong></p>
                 <button class="faq-button">
@@ -93,9 +92,9 @@
             </div>
         </div>
 
-        <h2>Basic Pricing</h2>
+        <h2 id="hidden">Basic Pricing</h2>
 
-        <div class="pricing">
+        <div class="pricing" id="hidden">
             <div class="pricing-holder">
                 <h3>Basic Design</h3>
                 <p>Price: $1</p>
@@ -119,7 +118,7 @@
             </div>
         </div>
 
-        <div class="sub-pricing">
+        <div class="sub-pricing" id="hidden">
             <div class="pricing-holder">
                 <h3>Looking for something different?</h3>
                 <p>Price: Negotiable</p>
@@ -129,15 +128,35 @@
             </div>
         </div>
 
-        <h2>Testimonials</h2>
+        <h2 id="hidden">Testimonials</h2>
 
-        <div class="testimonial-holder">
+        <div class="testimonial-holder" id="hidden">
             <p>I hit up Javelin Web Design in need of a portfolio and they delivered, very fast, very efficient, and great customer service they listen to all your needs and are willing to work wit you on whatever changes you have, they are awesome! I definitely recommend checking them out!</p>
-            <p>• ShiayaRBLX</p>
-            <a href="#">• Check out the site here!</a>
+            <p class="reference-p">• ShiayaRBLX</p>
+            <a href="https://shiayadev.github.io/ShiayaRBLX/">• Check out the site here!</a>
         </div>
+
+        <footer>
+            <h3>Javelin Web Design</h3>
+            <div class="footer-right">
+                <div class="links">
+                    <a href="about/">About</a>
+                    <a href="contact/">Contact</a>
+                </div>
+
+                <div class="socials">
+                    <a href="#" class="youtube"><i class='bx bxl-youtube'></i></a>
+                    <a href="#" class="instagram"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#" class="twitter"><i class='bx bxl-twitter'></i></a>
+                </div>
+
+                <p>Javelin Web Design.</p>
+            </div>
+        </footer>
 
         <script src="assets/js/sidebar-handler.js"></script>
         <script src="assets/js/image-handler.js"></script>
+        <script src="assets/js/secret.js"></script>
+        <script src="assets/js/scroll-effects.js"></script>
     </body>
 </html>
