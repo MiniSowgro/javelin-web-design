@@ -1,6 +1,6 @@
 var image = document.getElementById("image");
 var imageIndex = 1;
-var imageAmount = 2;
+var imageAmount = 5;
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms))
