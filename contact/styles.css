@@ -11,7 +11,6 @@
 
 a {
     text-decoration: none;
-    color: rgb(72, 121, 210);
 }
 
 body {
@@ -34,6 +33,20 @@ header {
     position: absolute;
     top: 0;
     padding: 20px 25px;
+}
+
+header div {
+    display: flex;
+}
+
+header a {
+    color: #000000;
+    transition: 0.2s;
+    padding-right: 20px;
+}
+
+header a:hover {
+    color: #aaaaaa;
 }
 
 h1 {
