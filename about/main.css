@@ -1,1 +1,215 @@
+h1 {
+  
+  font-family: "Arial" , sans-serif;
 
+  text-align: center
+}
+
+body {
+
+  background-color: #F9F7F5;
+
+}
+
+p { 
+
+  font-family: "Arial" , sans-serif;
+
+  text-align: center
+}
+
+#ultra {
+  
+  font-family: "Arial" , sans-serif;
+  
+  text-align: left
+
+}
+
+#orange {
+
+  font-family: "Arial" , sans-serif;
+
+  text-align : center
+
+}
+
+#orangediv {
+
+  background-color: #fff
+  border-radius: 20px;
+  border: 1px solid #eeeeee
+  
+}
+
+#mini {
+
+  font-family: "Arial" , sans-serif;
+
+  text-align : right
+
+}
+
+#meetthedevs {
+
+  text-align : center;
+  font-family: "Arial" , sans-serif;
+
+}
+
+#minipic {
+
+  width: 200px;
+
+  height: 200px;
+
+}
+
+#orangepic {
+
+  width: 200px;
+
+  height: 200px;
+
+}
+
+#ultrapic {
+
+  width: 200px;
+
+  height: 200px;
+
+}
+
+#developerdiv {
+  
+   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  
+}
+
+#meettheteam {
+
+  text-align : center;
+  font-family: "Arial" , sans-serif;
+
+}
+
+#cyruspic {
+
+  width: 200px;
+  height: 200px;
+
+}
+
+#main {
+  padding: 20px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 10px;
+  left: 10px;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: width 0.5s ease;
+}
+
+.openbtn {
+  position: relative;
+  z-index: 2;
+}
+
+.sidebar a {
+  
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3;
+  
+}
+
+.sidebar a:hover {
+  
+  color: #f1f1f1;
+  
+}
+
+.sidebar .closebtn {
+  
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  
+}
+
+.openbtn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  transition: left 0.5s ease;
+}
+
+.openbtn:hover {
+  
+  background-color: #444
+  
+}
+
+#main {
+  
+  transition: margin-left .5s;
+  padding: 20px;
+  
+}
+
+@media screen and (max-height: 450px) {
+  
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+  
+}
+
+#abouth1 {
+
+  font-family: "Arial" , sans-serif;
+  
+}
+
+#abouth2 {
+
+  font-family: "Arial" , sans-serif;
+  text-align: center;
+
+}
+
+#minidiv {
+
+  background-color: #fff
+  border-radius: 20px;
+  border: 1px solid #eeeeee
+  
+}
+
+#ultradiv {
+
+  background-color: #fff
+  border-radius: 20px;
+  border: 1px solid #eeeeee
+  
+}
