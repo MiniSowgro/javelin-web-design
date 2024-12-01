@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #F9F7F5;
+    background-color: #f9f7f5;
     cursor: cell;
     line-height: 1.6;
 }
@@ -192,6 +192,7 @@ h2 {
     font-size: 20px;
     padding: 50px;
     transition: 1s;
+    min-height: 250px;
 }
 
 .services .service:hover {
@@ -339,6 +340,25 @@ h2 {
 .testimonial-holder a,
 .testimonial-holder .reference-p {
     padding: 0 80px;
+}
+
+.example-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.example-holder h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.accent h3 {
+    margin-bottom: 100px;
 }
 
 footer {
