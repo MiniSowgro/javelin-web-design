@@ -192,7 +192,7 @@ h2 {
     font-size: 20px;
     padding: 50px;
     transition: 1s;
-    min-height: 250px;
+    min-height: 350px;
 }
 
 .services .service:hover {
